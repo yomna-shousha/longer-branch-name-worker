@@ -1,7 +1,7 @@
 
 export default {
   async fetch(request, env, ctx) {
-    return new Response("Hello from 63-char total!", {
+    return new Response("Test 63 chars total - should use branch name", {
       headers: { "Content-Type": "text/plain" }
     });
   },
