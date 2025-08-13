@@ -1,7 +1,6 @@
-
 export default {
   async fetch(request, env, ctx) {
-    return new Response("Hello from bugfix branch - memory leak fix!", {
+    return new Response("Testing the exact example branch name!", {
       headers: { "Content-Type": "text/plain" }
     });
   },
