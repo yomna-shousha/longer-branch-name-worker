@@ -1,7 +1,6 @@
-
 export default {
   async fetch(request, env, ctx) {
-    return new Response("Hello from bugfix branch - memory leak fix!", {
+    return new Response("62 chars total test", {
       headers: { "Content-Type": "text/plain" }
     });
   },
