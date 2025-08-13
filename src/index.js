@@ -1,1 +1,7 @@
-export default { async fetch(request, env, ctx) { return new Response("65 chars total - should use hash new lol", { headers: { "Content-Type": "text/plain" } }); }, };
+export default {
+  async fetch(request, env, ctx) {
+    return new Response("NEW 65 chars test - hash mode expected", {
+      headers: { "Content-Type": "text/plain" }
+    });
+  },
+};
