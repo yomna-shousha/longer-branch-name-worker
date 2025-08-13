@@ -1,6 +1,6 @@
 export default {
   async fetch(request, env, ctx) {
-    return new Response("Testing 67 chars with LOCAL wrangler 4.29.0", {
+    return new Response("Testing the exact example branch name!", {
       headers: { "Content-Type": "text/plain" }
     });
   },
